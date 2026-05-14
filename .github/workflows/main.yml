@@ -1,0 +1,27 @@
+name: Hospital Engine Sync
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: # Allows you to click "Run" manually for the presentation
+jobs:
+  run-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Dependencies
+        run: pip install pandas xgboost sqlalchemy mysql-connector-python scikit-learn matplotlib
+      - name: Execute Script
+        env:
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+        run: python your_script_name.py
+      - name: Push Updates
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add finaloccupancy.json *.png
+          git commit -m "Updated forecast data" || exit 0
+          git push
