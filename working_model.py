@@ -26,9 +26,9 @@ csv_path = os.path.join(base_path, 'cleandata.csv')
 def run_pipeline():
     # ✅ UPDATED: Aiven Connection String (using GitHub Secret)
     db_pass = os.environ.get('DB_PASSWORD')
-    db_host = "YOUR-AIVEN-HOSTNAME" # ⚠️ PASTE YOUR HOST HERE
+    db_host = "mysql-256d25f0-noorah-d305.h.aivencloud.com" # ⚠️ PASTE YOUR HOST HERE
     db_user = "noorah_admin"
-    db_port = "12164"
+    db_port = "12162"
     
     engine = create_engine(f"mysql+mysqlconnector://{db_user}:{db_pass}@{db_host}:{db_port}/defaultdb")
     
