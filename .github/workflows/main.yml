@@ -17,7 +17,7 @@ jobs:
       - name: Execute Script
         env:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-        run: python your_script_name.py
+        run: python working_model.py
       - name: Push Updates
         run: |
           git config --global user.name "GitHub Action"
