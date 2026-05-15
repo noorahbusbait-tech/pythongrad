@@ -39,211 +39,211 @@
     },
     "heatmap": [
         {
-            "day": "Fri",
+            "day": "Sat",
             "department": "ER",
             "value": 0.3,
             "risk": "LOW"
         },
         {
-            "day": "Fri",
+            "day": "Sat",
             "department": "ICU",
             "value": 0.8,
             "risk": "LOW"
         },
         {
-            "day": "Fri",
+            "day": "Sat",
             "department": "D1",
             "value": 0.3,
             "risk": "LOW"
         },
         {
-            "day": "Fri",
+            "day": "Sat",
             "department": "D2",
             "value": 2.1,
             "risk": "LOW"
         },
         {
-            "day": "Fri",
+            "day": "Sat",
             "department": "D3",
             "value": 3.6,
             "risk": "LOW"
         },
         {
-            "day": "Sat",
+            "day": "Sun",
             "department": "ER",
             "value": 1.8,
             "risk": "LOW"
         },
         {
-            "day": "Sat",
+            "day": "Sun",
             "department": "ICU",
             "value": 5.4,
             "risk": "LOW"
         },
         {
-            "day": "Sat",
+            "day": "Sun",
             "department": "D1",
             "value": 1.8,
             "risk": "LOW"
         },
         {
-            "day": "Sat",
+            "day": "Sun",
             "department": "D2",
             "value": 14.4,
             "risk": "HIGH"
         },
         {
-            "day": "Sat",
+            "day": "Sun",
             "department": "D3",
             "value": 25.3,
             "risk": "HIGH"
         },
         {
-            "day": "Sun",
+            "day": "Mon",
             "department": "ER",
             "value": 1.9,
             "risk": "LOW"
         },
         {
-            "day": "Sun",
+            "day": "Mon",
             "department": "ICU",
             "value": 5.7,
             "risk": "LOW"
         },
         {
-            "day": "Sun",
+            "day": "Mon",
             "department": "D1",
             "value": 1.9,
             "risk": "LOW"
         },
         {
-            "day": "Sun",
+            "day": "Mon",
             "department": "D2",
             "value": 15.1,
             "risk": "HIGH"
         },
         {
-            "day": "Sun",
+            "day": "Mon",
             "department": "D3",
             "value": 26.4,
             "risk": "HIGH"
         },
         {
-            "day": "Mon",
+            "day": "Tue",
             "department": "ER",
             "value": 1.3,
             "risk": "LOW"
         },
         {
-            "day": "Mon",
+            "day": "Tue",
             "department": "ICU",
             "value": 3.9,
             "risk": "LOW"
         },
         {
-            "day": "Mon",
+            "day": "Tue",
             "department": "D1",
             "value": 1.3,
             "risk": "LOW"
         },
         {
-            "day": "Mon",
+            "day": "Tue",
             "department": "D2",
             "value": 10.3,
             "risk": "MEDIUM"
         },
         {
-            "day": "Mon",
+            "day": "Tue",
             "department": "D3",
             "value": 18.0,
             "risk": "HIGH"
         },
         {
-            "day": "Tue",
+            "day": "Wed",
             "department": "ER",
             "value": 2.0,
             "risk": "LOW"
         },
         {
-            "day": "Tue",
+            "day": "Wed",
             "department": "ICU",
             "value": 5.9,
             "risk": "LOW"
         },
         {
-            "day": "Tue",
+            "day": "Wed",
             "department": "D1",
             "value": 2.0,
             "risk": "LOW"
         },
         {
-            "day": "Tue",
+            "day": "Wed",
             "department": "D2",
             "value": 15.8,
             "risk": "HIGH"
         },
         {
-            "day": "Tue",
+            "day": "Wed",
             "department": "D3",
             "value": 27.6,
             "risk": "HIGH"
         },
         {
-            "day": "Wed",
+            "day": "Thu",
             "department": "ER",
             "value": 1.9,
             "risk": "LOW"
         },
         {
-            "day": "Wed",
+            "day": "Thu",
             "department": "ICU",
             "value": 5.6,
             "risk": "LOW"
         },
         {
-            "day": "Wed",
+            "day": "Thu",
             "department": "D1",
             "value": 1.9,
             "risk": "LOW"
         },
         {
-            "day": "Wed",
+            "day": "Thu",
             "department": "D2",
             "value": 14.8,
             "risk": "HIGH"
         },
         {
-            "day": "Wed",
+            "day": "Thu",
             "department": "D3",
             "value": 25.9,
             "risk": "HIGH"
         },
         {
-            "day": "Thu",
+            "day": "Fri",
             "department": "ER",
             "value": 1.6,
             "risk": "LOW"
         },
         {
-            "day": "Thu",
+            "day": "Fri",
             "department": "ICU",
             "value": 4.8,
             "risk": "LOW"
         },
         {
-            "day": "Thu",
+            "day": "Fri",
             "department": "D1",
             "value": 1.6,
             "risk": "LOW"
         },
         {
-            "day": "Thu",
+            "day": "Fri",
             "department": "D2",
             "value": 12.7,
             "risk": "HIGH"
         },
         {
-            "day": "Thu",
+            "day": "Fri",
             "department": "D3",
             "value": 22.2,
             "risk": "HIGH"
@@ -251,7 +251,7 @@
     ],
     "breakdown": [
         {
-            "date": "2026-05-15",
+            "date": "2026-05-16",
             "total_occupancy": 7,
             "departments": {
                 "ER": {
@@ -282,7 +282,7 @@
             }
         },
         {
-            "date": "2026-05-16",
+            "date": "2026-05-17",
             "total_occupancy": 48,
             "departments": {
                 "ER": {
@@ -313,7 +313,7 @@
             }
         },
         {
-            "date": "2026-05-17",
+            "date": "2026-05-18",
             "total_occupancy": 51,
             "departments": {
                 "ER": {
@@ -344,7 +344,7 @@
             }
         },
         {
-            "date": "2026-05-18",
+            "date": "2026-05-19",
             "total_occupancy": 34,
             "departments": {
                 "ER": {
@@ -375,7 +375,7 @@
             }
         },
         {
-            "date": "2026-05-19",
+            "date": "2026-05-20",
             "total_occupancy": 53,
             "departments": {
                 "ER": {
@@ -406,7 +406,7 @@
             }
         },
         {
-            "date": "2026-05-20",
+            "date": "2026-05-21",
             "total_occupancy": 50,
             "departments": {
                 "ER": {
@@ -437,7 +437,7 @@
             }
         },
         {
-            "date": "2026-05-21",
+            "date": "2026-05-22",
             "total_occupancy": 42,
             "departments": {
                 "ER": {
@@ -469,5 +469,5 @@
         }
     ],
     "mae": 0.315,
-    "sync_time": "21:48:04"
+    "sync_time": "08:32:06"
 }
